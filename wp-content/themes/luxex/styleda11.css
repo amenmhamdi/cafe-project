@@ -1,0 +1,236 @@
+/*
+Theme Name: Luxex
+Theme URI: http://shtheme.org/demosd/luxex
+Author: Shtheme
+Author URI: http://shtheme.com
+Description: In 2022, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: luxex
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+p.comment-form-cookies-consent{
+    display: none;
+}
+span.ajax-loader{
+    display: none!important;
+}
+div.wpcf7-response-output{
+    color: #111;
+}
+
+.reservation-wrapper div.wpcf7-response-output{
+    position:absolute;
+    top:100px;
+    margin:10px 0;
+}
+
+.search-custom form input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #d1d1d1;
+    color: #111;
+}
+.search-custom form button{
+    border: 1px solid #111;
+    color: #fff;
+    font-size: 18px;
+    height: 45px;
+    position: relative;
+    width: 45px;
+    cursor: pointer;
+    float: right;
+    background: #111;
+    margin-top: -45px;
+    padding: 0;
+    letter-spacing: 0;
+
+}
+
+span.wpcf7-not-valid-tip{
+    padding-top: 10px;
+}
+
+.search-custom form button:hover{
+    background: #fff;
+    border: 1px solid #111;
+    color: #111;
+}
+.search-custom h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #2e2e2e;
+    text-transform: inherit;
+    margin-bottom: 20px;
+}
+
+li.recentcomments{
+    font-weight: 600;
+}
+
+h3.comment-reply-title,
+.comment-title{
+    font-size: 20px;
+    color: #111!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+}
+#form input.submit{
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px dashed  #111;
+    width: auto;
+    position: relative;
+    width: 120px!important;
+    max-width: 120px;
+    height: 120px;
+    display: block;
+    transform: translate(-50%, -50%);
+    top: 80px;
+    left: 60px;
+    border-radius: 50%;
+}
+
+.comments article > h4{
+    color: #111!important;
+}
+
+#comment-form .extra-margin-blog{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+p.form-submit{
+    text-align: center;
+}
+
+p.logged-in-as{
+    margin-top: 30px;
+}
+
+ul.pagination a{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    border-radius: 50%!important;
+    margin: 0 4px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+
+}
+
+ul li span.dots:hover{
+    background: #fff;
+}
+
+ul.pagination a:hover{
+    z-index: 2;
+    color: #23527c;
+    background-color: #eee;
+}
+
+ul.pagination span.current{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #111;
+    padding: 0;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.blog-sidebar-wrapper a{
+    color: #5f5f5f;
+}
+
+.navbar .navbar-nav > li.open > a:hover, .navbar .navbar-nav > li.open > a:focus {
+    background-color: transparent;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    background-color: #fff;
+}
+
+.main-navigation .navbar-nav .active a,
+.main-navigation .navbar-nav li a:focus{
+    color: #5f5f5f!important;
+}
+
+@media(min-width: 768px){
+.main-navigation .navbar-nav .active a,
+.main-navigation .navbar-nav li a:focus{
+    color: #fff!important;
+}
+}
+
+.main-navigation-bg .main-navigation .navbar-nav .active a,
+.main-navigation-bg .main-navigation .navbar-nav li a:focus{
+    color: #5f5f5f!important;
+}
+
+.main-navigation .navbar-nav .active ul li a{
+    color: #5f5f5f!important;
+}
+
+.wpcf7-form span.wpcf7-form-control-wrap{
+    width: 100%;
+}
+
+.wpcf7-form p{
+    display: none;
+}
+
+.wpcf7-form input.wpcf7-email{
+    padding-bottom: 15px;
+}
+
+#form input.wpcf7-submit{
+    border-bottom: none;
+    color: #191919;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin:0;
+}
+
+.upper-page{
+    height: 100vh;
+}
+
+.elementor .legendary-gallery img{
+    height: 66vh;
+}
+
+.legendary-gallery figure:last-child {
+    margin-bottom: 25px!important;
+}
+
+.dialog-type-lightbox{
+    display: none!important;
+}
